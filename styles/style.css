@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  background-color: #1B1B1B;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.header-navegacao-lista {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.header-navegacao-itens {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.header-titulo h1 {
+  color: white;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */

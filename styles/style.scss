@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+@import "./colors";
+
+body {
+    background-color: $background-color;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.header-navegacao-lista {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.header-navegacao-itens {
+    text-decoration: none;
+    color: $white;
+    font-size: 24px;
+}
+
+.header-titulo h1 {
+    color: $white;
+    font-size: 24px;
+}
