@@ -4,26 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://kit.fontawesome.com/7044480ef5.js" crossorigin="anonymous"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Portfolio gabross.dev</title>
 </head>
 <body>
-    <header>
-        <div class="header-titulo">
-            <h1>@gabross.dev</h1>
-        </div>
-        <nav class="header-navegacao">
-            <ul class="header-navegacao-lista">
-                <li><a class="header-navegacao-itens" href="#">Instagram</a></li>
-                <li><a class="header-navegacao-itens" href="#">Linkedin</a></li>
-                <li><a class="header-navegacao-itens" href="#">Github</a></li>
-            </ul>           
-        </nav>
-    </header>
+    <section id="header-inicio">
+        <header>
+            <div class="header-titulo">
+                    <h1><a href="#">gabross<b>.dev</b></a></h1>
+            </div>
+            <nav class="header-navegacao">
+                <ul class="header-navegacao-lista">
+                    <li class="header-navegacao-sublista">
+                        <a class="header-navegacao-itens" href="#">
+                            <i class="fa-brands fa-instagram fa-1x"></i>
+                            <p class="header-navegacao-itens-text">Instagram</p>
+                        </a>
+                    </li>
+                    <li class="header-navegacao-sublista">
+                        <a class="header-navegacao-itens" href="#">
+                            <i class="fa-brands fa-linkedin fa-1x"></i>
+                            <p class="header-navegacao-itens-text">Linkedin</p>
+                        </a>
+                    </li>
+                    <li class="header-navegacao-sublista">
+                        <a class="header-navegacao-itens" href="#">
+                            <i class="fa-brands fa-github fa-1x"></i>
+                            <p class="header-navegacao-itens-text">Github</p>
+                        </a>
+                    </li>
+                    <li class="header-navegacao-sublista header-navegacao-turnmode">
+                        <a class="header-navegacao-itens-turnmode" href="#">
+                            <i class="fa-solid fa-moon fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>           
+            </nav>
+        </header>
+    </section>
 
     <hr>
+    <main>
+        <section class="hero">
+            <div class="hero-title">
+                <h2 class="hero-title-text">Developer</h2>
+            </div>
+            <div class="hero-content">
+                
+                <!-- <img class="hero-image" src="assets/fotonobg.png" alt=""> -->
 
-    <section class="hero">
+                <div class="hero-about">
+                    <p class="hero-about-text">Oi!<br>Eu sou Gabriell,<br>Desenvolvedor Front-end</p>
+                    <a class="hero-about-btn" href="#">Vamos conversar</a>
+                </div>
 
-    </section>
+                <ul class="hero-linguagens">
+                    <li class="hero-linguagens-itens"><h2>4</h2><p>Linguagens de <br>Programação</p></li>
+                    <li class="hero-linguagens-itens"><h2>6</h2><p>Soft <br>Skills</p></li>
+                    <li class="hero-linguagens-itens"><h2>0</h2><p>Anos de <br>Experiencia</p></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- <hr> -->
+        
+        <section class="about">
+            <div class="about-me">
+                <div class="about-container">
+                    <div class="about-title">
+                        <h2 class="about-title-content">Sobre Mim</h2>
+                    </div>
+                    <div class="about-text">
+                        <h3>Olá!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices commodo ex, non elementum arcu aliquam non. In interdum enim in sapien mattis congue. Cras dolor eros, pellentesque vel leo vel, vulputate convallis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices commodo ex, non elementum arcu aliquam non. In interdum enim in sapien mattis congue. Cras dolor eros, pellentesque vel leo vel, vulputate convallis dolor.</p>
+                    </div>
+                </div>
+                <img class="about-image" src="assets/coding.jpg" alt="Coding">
+            </div>
+        </section>
+        
+        <hr>
+
+        <section class="skills">
+            <div class="skills-title">
+                <h2>Habilidades</h2>
+                <hr>
+                <p>Conheça um pouco das minhas skills</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-box">
+                    <i class="fa-solid fa-computer fa-2x"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                    <h3>App Development</h3>
+                </div>
+            </div>
+            <ul class="skills-list">
+                <li class="skills-list-itens html"><i class="fa-brands fa-html5 fa-4x"></i><h3>HTML 5</h3></li>
+                <li class="skills-list-itens css"><i class="fa-brands fa-css3-alt fa-4x"></i><h3>CSS 3</h3></li>
+                <li class="skills-list-itens javascript"><i class="fa-brands fa-js fa-4x"></i><h3>JavaScript</h3></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <i class="fa-regular fa-copyright fa-1x"></i>
+            <p>2023 gabross.dev. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a class="btn-top" href="#header-inicio">
+        <i class="fa-solid fa-arrow-up  fa-2x"></i>
+    </a>
+
 </body>
 </html>
