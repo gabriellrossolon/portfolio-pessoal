@@ -7,6 +7,10 @@
 
 @import "./colors";
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: $dark-gray;
     color: $white;
@@ -23,6 +27,8 @@ hr {
     margin: 0 4rem;
     border-color: gray;
 }
+
+
 
 // HEADER
 
