@@ -56,7 +56,7 @@ strong {
 }
 
 .header-titulo {
-        a {
+    a {
         text-decoration: none;
         color: var(--destaques);
         font-size: 1.5rem;
@@ -223,8 +223,10 @@ strong {
 //ABOUT SOFT-SKILLS
 
 .soft-skills {
+    list-style: none;
+
     h2 {
-        padding-top: 3rem;
+        padding: 3rem 0 2rem 0;
         font-size: 2rem;
     }
 }

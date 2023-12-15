@@ -225,8 +225,11 @@ strong {
   border-radius: 2rem;
 }
 
+.soft-skills {
+  list-style: none;
+}
 .soft-skills h2 {
-  padding-top: 3rem;
+  padding: 3rem 0 2rem 0;
   font-size: 2rem;
 }
 
