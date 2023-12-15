@@ -217,10 +217,11 @@ strong {
   display: flex;
   align-items: center;
   gap: 5rem;
+  padding-bottom: 2rem;
 }
 
 .about-image {
-  width: 65%;
+  width: 60%;
   border-radius: 2rem;
 }
 
@@ -386,9 +387,21 @@ strong {
   .hero-about-text {
     font-size: 2.2rem;
   }
+  .hero-linguagens {
+    border-radius: 1rem;
+  }
+  .hero-linguagens-itens h2 {
+    font-size: 3rem;
+  }
+  .hero-linguagens-itens p {
+    font-size: 2rem;
+  }
   .about-me {
     margin: 0 2rem;
     padding: 3rem 1rem;
+  }
+  .about-text-container {
+    gap: 0;
   }
   .about-image {
     display: none;
