@@ -8,6 +8,7 @@
 
 :root {
   --background: #1B1B1B;
+  --background2: #1f1f1f;
   --paragrafos: #FFFF;
   --turnmode: #FFFF;
   --destaques: #22D4FD;
@@ -20,6 +21,7 @@
 
 .light-mode:root {
   --background: #d1d1d1;
+  --background2: #c9c9c9;
   --paragrafos: #111111;
   --turnmode: #000000;
   --destaques: #134e5c;
@@ -214,7 +216,7 @@ strong {
 }
 
 .about-text-container {
-  border: 2px solid var(--destaques);
+  background-color: var(--background2);
   border-radius: 16px;
   display: flex;
   align-items: center;
