@@ -6,13 +6,33 @@
   font-family: Montserrat;
 }
 
+:root {
+  --background: #1B1B1B;
+  --paragrafos: #FFFF;
+  --turnmode: #FFFF;
+  --destaques: #22D4FD;
+  --backgroundcontainers: black;
+  --gradiente1: #1B1B1B;
+  --gradiente2: #000;
+}
+
+.light-mode:root {
+  --background: #d1d1d1;
+  --paragrafos: #111111;
+  --turnmode: #000000;
+  --destaques: #134e5c;
+  --backgroundcontainers: #c9c9c9;
+  --gradiente1: #d1d1d1;
+  --gradiente2: #ffffff;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #1B1B1B;
-  color: white;
+  background-color: var(--background);
+  color: var(--paragrafos);
 }
 
 header {
@@ -39,29 +59,35 @@ hr {
   gap: 0.5rem;
   align-items: center;
   text-decoration: none;
-  color: #22D4FD;
+  color: var(--destaques);
   font-size: 1.5rem;
 }
 
 .header-navegacao-itens-text {
-  color: white;
+  color: var(--paragrafos);
 }
 
 .header-titulo a {
   text-decoration: none;
-  color: #22D4FD;
+  color: var(--destaques);
   font-size: 1.5rem;
 }
 .header-titulo b {
-  color: white;
-}
-
-.header-navegacao-itens-turnmode {
-  color: white;
+  color: var(--paragrafos);
 }
 
 .header-navegacao-turnmode {
-  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
+.fa-moon {
+  color: var(--turnmode);
+  cursor: pointer;
+}
+
+.checkbox-button {
+  display: none;
+  position: absolute;
 }
 
 .hero {
@@ -76,7 +102,7 @@ hr {
 
 .hero-title-text {
   font-size: 4rem;
-  color: #22D4FD;
+  color: var(--destaques);
 }
 
 .hero-content {
@@ -103,19 +129,19 @@ hr {
 
 .hero-about-btn {
   font-size: 1.2rem;
-  background-color: black;
-  color: #22D4FD;
+  background-color: var(--backgroundcontainers);
+  color: var(--destaques);
   text-decoration: none;
   padding: 0.5rem 1rem;
   width: -moz-fit-content;
   width: fit-content;
-  border: 2px solid white;
+  border: 2px solid var(--paragrafos);
   border-radius: 4rem;
 }
 
 .hero-linguagens {
   list-style: none;
-  background-color: black;
+  background-color: var(--backgroundcontainers);
   border-radius: 4rem;
 }
 
@@ -127,11 +153,11 @@ hr {
 }
 .hero-linguagens-itens h2 {
   font-size: 2.5rem;
-  color: #22D4FD;
+  color: var(--destaques);
 }
 
 .about {
-  background: linear-gradient(#1B1B1B, #000);
+  background: linear-gradient(var(--gradiente1), var(--gradiente2));
 }
 
 .about-me {
@@ -150,7 +176,7 @@ hr {
 }
 
 .about-title-content {
-  color: #22D4FD;
+  color: var(--destaques);
   font-size: 3rem;
 }
 
@@ -202,7 +228,7 @@ hr {
 }
 .skills-title h2 {
   font-size: 2rem;
-  color: #22D4FD;
+  color: var(--destaques);
 }
 .skills-title p {
   font-size: 1rem;
@@ -226,14 +252,14 @@ hr {
   padding: 3rem 2rem;
   border-radius: 1rem;
   gap: 0.5rem;
-  border-left: 6px solid black;
-  background-color: #22D4FD;
+  border-left: 6px solid var(--backgroundcontainers);
+  background-color: var(--destaques);
 }
 .skills-box i {
-  color: black;
+  color: var(--backgroundcontainers);
 }
 .skills-box h3 {
-  color: black;
+  color: var(--backgroundcontainers);
 }
 
 .skills-list {
@@ -264,7 +290,7 @@ hr {
 }
 
 .footer-content {
-  background-color: black;
+  background-color: var(--backgroundcontainers);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,8 +306,8 @@ hr {
   bottom: 1rem;
   right: 1rem;
   z-index: 99;
-  color: black;
-  background-color: #22D4FD;
+  color: var(--backgroundcontainers);
+  background-color: var(--destaques);
   padding: 0.5rem;
   border-radius: 4rem;
 }

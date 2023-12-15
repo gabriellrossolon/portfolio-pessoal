@@ -10,8 +10,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Portfolio gabross.dev</title>
+
+    
     <link rel="icon" href="./assets/devicon.webp" type="image/svg">
+    <title>Portfolio gabross.dev</title>
+
 </head>
 <body>
     <section id="header-inicio">
@@ -39,12 +42,14 @@
                             <p class="header-navegacao-itens-text">Github</p>
                         </a>
                     </li>
-                    <li class="header-navegacao-sublista header-navegacao-turnmode">
-                        <a class="header-navegacao-itens-turnmode" href="#">
-                            <i class="fa-solid fa-moon fa-2x"></i>
-                        </a>
+                    <li>
+                        <label for="switch" class="header-navegacao-sublista header-navegacao-turnmode">
+                            <input type="checkbox" id="switch" class="checkbox-button">
+                                <i class="fa-solid fa-moon fa-2x"></i>
+                        </label>  
                     </li>
-                </ul>           
+                </ul>
+         
             </nav>
         </header>
     </section>
@@ -128,4 +133,7 @@
     </a>
 
 </body>
+
+<script src="index.js"></script>
+
 </html>

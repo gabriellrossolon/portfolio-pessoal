@@ -1,7 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Poppins:wght@300;400;500;700&display=swap');
 
-$dark-gray: #1B1B1B;
-$white: #FFFF;
-$azul-marinho: #22D4FD;
-$black: black;
-$gray-gradient: (#1B1B1B, #000)
+//ORIGINAIS RENOMEADOS
+$background: #1B1B1B;
+$paragrafos: #FFFF;
+$turnmode: #FFFF;
+$destaques: #22D4FD;
+$backgroundcontainers: black;
+$gradiente1: (#1B1B1B, #000);
+
+
+//ROOT PARA DARK LIGHT MODE
+:root {
+    --background: #1B1B1B;
+    --paragrafos: #FFFF;
+    --turnmode: #FFFF;
+    --destaques: #22D4FD;
+    --backgroundcontainers: black;
+    --gradiente1: #1B1B1B;
+    --gradiente2: #000;
+}
+
+.light-mode:root {
+    --background: #d1d1d1;
+    --paragrafos: #111111;
+    --turnmode: #000000;
+    --destaques: #134e5c;
+    --backgroundcontainers: #c9c9c9;
+    --gradiente1: #d1d1d1;
+    --gradiente2: #ffffff;
+}
+
+
+
+
+
+
+//ORIGINAIS
+// $dark-gray: #dddddd;
+// $white: #000000;
+// $azul-marinho: #30555e;
+// $black: rgb(255, 255, 255);
+// $gray-gradient: (#e6e6e6, #ffffff);
+// $low-white: #1f1f1f;
+
