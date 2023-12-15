@@ -137,8 +137,8 @@ strong {
 
 .hero-about-btn {
   font-size: 1.2rem;
-  background-color: var(--backgroundcontainers);
-  color: var(--destaques);
+  background-color: var(--destaques);
+  color: var(--backgroundcontainers);
   text-decoration: none;
   padding: 0.5rem 1rem;
   width: -moz-fit-content;
@@ -148,8 +148,8 @@ strong {
 }
 
 .hero-about-btn:hover {
-  background-color: var(--destaques);
-  color: var(--backgroundcontainers);
+  background-color: var(--backgroundcontainers);
+  color: var(--destaques);
 }
 
 .hero-linguagens {
@@ -214,22 +214,28 @@ strong {
 }
 
 .about-text-container {
+  border: 2px solid var(--destaques);
+  border-radius: 16px;
   display: flex;
   align-items: center;
+  padding: 2rem;
   gap: 5rem;
-  padding-bottom: 2rem;
 }
 
 .about-image {
-  width: 60%;
+  width: 75%;
   border-radius: 2rem;
+}
+
+.line-about {
+  margin: 2rem 4rem;
 }
 
 .soft-skills {
   list-style: none;
 }
 .soft-skills h2 {
-  padding: 3rem 0 2rem 0;
+  padding-bottom: 2rem;
   font-size: 2rem;
 }
 
