@@ -29,7 +29,9 @@ hr {
     border-color: gray;
 }
 
-
+strong {
+    color: var(--destaques);
+}
 
 // HEADER
 
@@ -131,6 +133,11 @@ hr {
     border-radius: 4rem;
 }
 
+.hero-about-btn:hover {
+    background-color: var(--destaques);
+    color: var(--backgroundcontainers)
+}
+
 .hero-linguagens {
     list-style: none;
     background-color: var(--backgroundcontainers);
@@ -140,6 +147,7 @@ hr {
 .hero-linguagens-itens {
     display: flex;
     align-items: center;
+    justify-content: left;
     margin: 2rem;
     gap: 1rem;
 
@@ -180,15 +188,56 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.about-text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-text-text {
+
 
     h3 {
         font-size: 2rem;
     }
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.about-text-container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
 }
 
 .about-image {
-    width: 20%;
+    width: 65%;
     border-radius: 2rem;
+}
+
+//ABOUT SOFT-SKILLS
+
+.soft-skills {
+    h2 {
+        padding-top: 3rem;
+        font-size: 2rem;
+    }
+}
+
+.soft-skills-content {
+    padding: 0.5rem 0;
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 //SKILLS
@@ -296,6 +345,10 @@ hr {
     color: yellow;
 }
 
+.git {
+    color: rgb(255, 60, 0);
+}
+
 //FOOTER
 .footer-content {
     background-color: var(--backgroundcontainers);
@@ -325,6 +378,11 @@ hr {
     border-radius: 4rem;
   
     // display: none;
+  }
+
+  .btn-top:hover {
+    color: var(--destaques);
+    background-color: var(--backgroundcontainers);
   }
 
 //RESPONSSIVE
@@ -376,6 +434,12 @@ hr {
         h3 {
             text-align: center;
         }
+    }
+
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
     }
 
     .btn-top {
