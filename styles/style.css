@@ -50,7 +50,7 @@ hr {
 .header-navegacao-lista {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
 }
 
@@ -76,10 +76,6 @@ hr {
   color: var(--paragrafos);
 }
 
-.header-navegacao-turnmode {
-  margin-left: 2rem;
-}
-
 .fa-moon {
   color: var(--turnmode);
   cursor: pointer;
@@ -88,6 +84,10 @@ hr {
 .checkbox-button {
   display: none;
   position: absolute;
+}
+
+.header-navegacao-turnmode {
+  padding-left: 1rem;
 }
 
 .hero {
@@ -318,7 +318,7 @@ hr {
   }
   header {
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
   .header-navegacao-turnmode {
     padding-left: 1rem;
