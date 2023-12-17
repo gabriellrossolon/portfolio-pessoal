@@ -49,7 +49,6 @@ header {
 }
 
 hr {
-  margin: 0 4rem;
   border-color: gray;
 }
 
@@ -84,6 +83,10 @@ strong {
 }
 .header-titulo b {
   color: var(--paragrafos);
+}
+
+.hr-header {
+  margin: 0 4rem;
 }
 
 .fa-moon {
@@ -229,7 +232,7 @@ strong {
   border-radius: 2rem;
 }
 
-.line-about {
+.hr-about {
   margin: 2rem 4rem;
 }
 
@@ -251,11 +254,86 @@ strong {
   font-size: 1rem;
 }
 
+.projects-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.projects-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 6rem 0;
+}
+.projects-title h2 {
+  font-size: 6rem;
+}
+
+.project-container {
+  background-color: var(--background2);
+  border: 2px solid var(--backgroundcontainers);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 32rem;
+}
+.project-container h3 {
+  margin-bottom: 2rem;
+}
+.project-container img {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border: 2px solid var(--background2);
+}
+.project-container p {
+  margin: 2rem 0;
+}
+.project-container a {
+  text-decoration: none;
+  color: var(--destaques);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: var(--background);
+}
+
+.projects-repositorios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0 5rem 0;
+}
+.projects-repositorios a {
+  font-size: 2rem;
+  color: var(--destaques);
+  text-decoration: none;
+}
+
+.project-tecnologias {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.project-tecnologias-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-tecnologias-content p {
+  margin: 0;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding: 5rem 0;
+  padding: 2rem 0;
   gap: 2rem;
 }
 
@@ -346,8 +424,12 @@ strong {
   color: yellow;
 }
 
-.git {
-  color: rgb(255, 60, 0);
+.github {
+  color: rgb(255, 255, 255);
+}
+
+.sass {
+  color: #a04491;
 }
 
 .footer-content {
@@ -417,6 +499,9 @@ strong {
   .about-image {
     display: none;
   }
+  .projects-title h2 {
+    font-size: 4rem;
+  }
   .skills {
     margin: 0 1rem;
   }
@@ -429,7 +514,7 @@ strong {
   .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
   }
   .btn-top {
     padding: 1.2rem;
