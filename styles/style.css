@@ -367,6 +367,7 @@ strong {
 }
 .skills-title p {
   font-size: 1rem;
+  text-align: center;
 }
 .skills-title hr {
   width: 10rem;
@@ -432,6 +433,10 @@ strong {
   color: #a04491;
 }
 
+.figma {
+  color: #000000;
+}
+
 .footer-content {
   background-color: var(--backgroundcontainers);
   display: flex;
@@ -453,11 +458,6 @@ strong {
   background-color: var(--destaques);
   padding: 0.5rem;
   border-radius: 4rem;
-}
-
-.btn-top:hover {
-  color: var(--destaques);
-  background-color: var(--backgroundcontainers);
 }
 
 @media screen and (max-width: 1024px) {
@@ -520,5 +520,11 @@ strong {
     padding: 1.2rem;
     border-radius: 4rem;
     opacity: 0.6;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .btn-top:hover {
+    color: var(--destaques);
+    background-color: var(--backgroundcontainers);
   }
 }/*# sourceMappingURL=style.css.map */

@@ -384,6 +384,7 @@ strong {
 
     p {
         font-size: 1rem;
+        text-align: center;
     }
 
     hr {
@@ -452,6 +453,10 @@ strong {
     color: #a04491;
 }
 
+.figma {
+    color: #000000;
+}
+
 //FOOTER
 .footer-content {
     background-color: var(--backgroundcontainers);
@@ -483,10 +488,6 @@ strong {
     // display: none;
   }
 
-  .btn-top:hover {
-    color: var(--destaques);
-    background-color: var(--backgroundcontainers);
-  }
 
 //RESPONSSIVE
 
@@ -545,10 +546,11 @@ strong {
         display: none;
     }
 
-.projects-title {
-    h2 {
-        font-size: 4rem;
-    }
+    .projects-title {
+        
+        h2 {
+            font-size: 4rem;
+        }
 }
 
     .skills {
@@ -574,4 +576,11 @@ strong {
         border-radius: 4rem;
         opacity: 0.6;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    .btn-top:hover {
+        color: var(--destaques);
+        background-color: var(--backgroundcontainers);
+      }
 }
