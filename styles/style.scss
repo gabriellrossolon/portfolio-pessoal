@@ -113,8 +113,8 @@ strong {
 .hero-card {
     border: 2px solid var(--backgroundcontainers);
     background-color: var(--background2);
-    border-radius: 2rem;
-    padding: 1.5rem 1rem;
+    border-radius: 40% 0 40% 0;
+    padding: 2rem;
 }
 
 .hero-card-image {
@@ -564,24 +564,24 @@ strong {
     }
 
     .hero-card {
-        display: none;
+        padding: 4rem 2.5rem;
+        border-radius: 1rem 30% 1rem 30%;
+        // display: none;
     }
 
-    // .hero-card-content {
-    //     margin: 2.5rem 1rem;
+    .hero-card-content {
+        h2 {
+            font-size: 2rem;
+        } 
 
-    //    h2 {
-    //     font-size: 2rem;
-    //    } 
+        p {
+            font-size: 1.5rem;
+        }
 
-    //    p {
-    //     font-size: 1.5rem;
-    //    }
-
-    //    a{
-    //     font-size: 1.5rem;
-    //    }
-    // }
+        a{
+            font-size: 1.5rem;
+        }
+    }
 
     .hero-about {
         margin: 0 2rem;
@@ -593,6 +593,7 @@ strong {
 
     .hero-linguagens {
         border-radius: 1rem;
+        display: none;
     }
 
     .hero-linguagens-itens {

@@ -128,8 +128,8 @@ strong {
 .hero-card {
   border: 2px solid var(--backgroundcontainers);
   background-color: var(--background2);
-  border-radius: 2rem;
-  padding: 1.5rem 1rem;
+  border-radius: 40% 0 40% 0;
+  padding: 2rem;
 }
 
 .hero-card-image {
@@ -523,7 +523,17 @@ strong {
     flex-direction: column;
   }
   .hero-card {
-    display: none;
+    padding: 4rem 2.5rem;
+    border-radius: 1rem 30% 1rem 30%;
+  }
+  .hero-card-content h2 {
+    font-size: 2rem;
+  }
+  .hero-card-content p {
+    font-size: 1.5rem;
+  }
+  .hero-card-content a {
+    font-size: 1.5rem;
   }
   .hero-about {
     margin: 0 2rem;
@@ -533,6 +543,7 @@ strong {
   }
   .hero-linguagens {
     border-radius: 1rem;
+    display: none;
   }
   .hero-linguagens-itens h2 {
     font-size: 3rem;
