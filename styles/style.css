@@ -17,6 +17,7 @@
   --gradiente2: #000;
   --black: #000;
   --white: #FFFFFF;
+  --destaque-gradient: linear-gradient(#22D4FD, #C9C9C9);
 }
 
 .light-mode:root {
@@ -30,6 +31,7 @@
   --gradiente2: #ffffff;
   --black: #000;
   --white: #FFFFFF;
+  --destaque-gradient: linear-gradient(#134e5c, #111111);
 }
 
 html {
@@ -129,7 +131,7 @@ strong {
 }
 
 .hero-title-text {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--destaques);
 }
 
@@ -554,6 +556,7 @@ strong {
   }
   .hero-content {
     flex-direction: column;
+    margin: 0 1rem;
   }
   .hero-card {
     padding: 4rem 2.5rem;
