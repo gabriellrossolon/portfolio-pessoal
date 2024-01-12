@@ -82,24 +82,30 @@ strong {
 
 //HEADER TURNMODE
 
-.fa-moon {
-    color: var(--turnmode);
+.mode-icon {
     cursor: pointer;
+
+    background-image: var(--turnmode);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    padding-left: 2rem;
 }
 
-.fa-moon:hover {
+.mode-icon:hover {
     animation: zoom 2s;
     animation-fill-mode: forwards;
 }
 
-.checkbox-button {
-    display: none;
-    position: absolute
-}
+// .checkbox-button {
+//     display: none;
+//     position: absolute
+// }
 
-.header-navegacao-turnmode {
-    padding-left: 1rem;
-}
+// .header-navegacao-turnmode {
+//     padding-left: 1rem;
+// }
 
 // HERO
 

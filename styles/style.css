@@ -10,13 +10,13 @@
   --background: #1B1B1B;
   --background2: #1f1f1f;
   --paragrafos: #FFFF;
-  --turnmode: #FFFF;
   --destaques: #22D4FD;
   --backgroundcontainers: black;
   --gradiente1: #1B1B1B;
   --gradiente2: #000;
   --black: #000;
   --white: #FFFFFF;
+  --turnmode: linear-gradient(to bottom, #53527a, #C9C9C9);
   --destaque-gradient: linear-gradient(#22D4FD, #C9C9C9);
 }
 
@@ -24,13 +24,13 @@
   --background: #d1d1d1;
   --background2: #c9c9c9;
   --paragrafos: #111111;
-  --turnmode: #000000;
   --destaques: #134e5c;
   --backgroundcontainers: #c9c9c9;
   --gradiente1: #d1d1d1;
   --gradiente2: #ffffff;
   --black: #000;
   --white: #FFFFFF;
+  --turnmode: linear-gradient(to top, #FC9601, #fffb00);
   --destaque-gradient: linear-gradient(#134e5c, #111111);
 }
 
@@ -101,23 +101,18 @@ strong {
   margin: 0 4rem;
 }
 
-.fa-moon {
-  color: var(--turnmode);
+.mode-icon {
   cursor: pointer;
+  background-image: var(--turnmode);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding-left: 2rem;
 }
 
-.fa-moon:hover {
+.mode-icon:hover {
   animation: zoom 2s;
   animation-fill-mode: forwards;
-}
-
-.checkbox-button {
-  display: none;
-  position: absolute;
-}
-
-.header-navegacao-turnmode {
-  padding-left: 1rem;
 }
 
 .hero {
