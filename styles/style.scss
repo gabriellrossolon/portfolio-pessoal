@@ -50,6 +50,11 @@ strong {
     font-size: 1.5rem;
 }
 
+.header-navegacao-itens:hover {
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
+}
+
 .header-navegacao-itens-text {
     color: var(--paragrafos);
 }
@@ -66,6 +71,11 @@ strong {
     }
 }
 
+.header-titulo:hover {
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
+}
+
 .hr-header {
     margin: 0 4rem;
 }
@@ -75,6 +85,11 @@ strong {
 .fa-moon {
     color: var(--turnmode);
     cursor: pointer;
+}
+
+.fa-moon:hover {
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
 }
 
 .checkbox-button {
@@ -165,6 +180,9 @@ strong {
 
 .hero-card-perfil:hover {
     background-color: var(--background);
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
+    transition: 2s;
 }
 
 .hero-about {
@@ -191,6 +209,9 @@ strong {
 .hero-about-btn:hover {
     background-color: var(--backgroundcontainers);
     color: var(--destaques);
+    animation: zoom 2s;
+    animation-fill-mode: forwards;
+    transition: 2s;
 }
 
 .hero-linguagens {
@@ -357,8 +378,12 @@ strong {
         border-radius: 0.5rem;
         padding: 1rem;
         background-color: var(--background);
-
     }
+}
+
+.project-button:hover {
+    background-color: var(--backgroundcontainers);
+    transition: 2s;
 }
 
 .projects-repositorios {
@@ -538,7 +563,10 @@ strong {
     border-radius: 4rem;
   
     // display: none;
+
+    animation: zoom 2s infinite alternate;
   }
+
 
 
 //RESPONSSIVE
@@ -657,7 +685,7 @@ strong {
     }
 
     .btn-top {
-        padding: 1.2rem;
+        padding: 1rem;
         border-radius: 4rem;
         opacity: 0.6;
     }
@@ -668,4 +696,24 @@ strong {
         color: var(--destaques);
         background-color: var(--backgroundcontainers);
       }
+}
+
+//ANIMATIONS 
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+      }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(10px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
 }

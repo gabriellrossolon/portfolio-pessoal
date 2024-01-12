@@ -4,3 +4,6 @@ const $checkbox = document.querySelector('#switch')
 $checkbox.addEventListener('change', function() {
     $html.classList.toggle('light-mode')
 })
+
+//
+AOS.init();
