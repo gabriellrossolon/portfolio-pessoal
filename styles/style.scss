@@ -390,7 +390,8 @@ strong {
     height: 14rem;
     object-fit: cover;
     object-position: center center;
-    border: 2px solid var(--background2);
+    border: 2px solid var(--backgroundcontainers);
+    border-radius: 1rem;
 }
 
 .project-button:hover {
@@ -680,7 +681,11 @@ strong {
         h2 {
             font-size: 4rem;
         }
-}
+    }
+
+    .project-img {
+        height: auto;
+    }
 
     .skills {
         padding: 2rem 1rem;
