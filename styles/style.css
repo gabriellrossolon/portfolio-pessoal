@@ -349,15 +349,6 @@ strong {
 .project-container h3 {
   margin-bottom: 2rem;
 }
-.project-container img {
-  width: 100%;
-  height: 15rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-  border: 2px solid var(--background2);
-}
 .project-container p {
   margin: 2rem 0;
 }
@@ -367,6 +358,20 @@ strong {
   border-radius: 0.5rem;
   padding: 1rem;
   background-color: var(--background);
+}
+
+.project-img-container {
+  width: 100%;
+}
+
+.project-img {
+  width: 100%;
+  height: 14rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border: 2px solid var(--background2);
 }
 
 .project-button:hover {
