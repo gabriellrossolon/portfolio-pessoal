@@ -563,6 +563,9 @@ strong {
   .header-navegacao-turnmode {
     padding-left: 1rem;
   }
+  .hero-title-text {
+    font-size: 2.5rem;
+  }
   .hero-content {
     flex-direction: column;
     margin: 0 1rem;
@@ -609,11 +612,24 @@ strong {
   .projects-title h2 {
     font-size: 4rem;
   }
+  .project-img-container {
+    height: 8rem;
+  }
   .project-img {
-    height: auto;
+    height: 8rem;
+  }
+  .projects-repositorios {
+    margin: 1rem 0;
+  }
+  .projects-repositorios a {
+    text-align: center;
+    font-size: 2rem;
   }
   .skills {
     padding: 2rem 1rem;
+  }
+  .skills-container {
+    gap: 0.5rem;
   }
   .skills-box {
     padding: 1rem;

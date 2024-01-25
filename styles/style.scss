@@ -620,9 +620,9 @@ strong {
         padding-left: 1rem; 
     }
 
-    // .hero-title-text {
-    //    
-    // }
+    .hero-title-text {
+       font-size: 2.5rem;
+    }
 
     .hero-content {
         flex-direction: column;
@@ -692,12 +692,29 @@ strong {
         }
     }
 
+    .project-img-container {
+        height: 8rem;
+    }
+
     .project-img {
-        height: auto;
+        height: 8rem;
+    }
+
+    .projects-repositorios {
+        margin: 1rem 0;
+
+        a {
+            text-align: center;
+            font-size: 2rem;
+        }
     }
 
     .skills {
         padding: 2rem 1rem;
+    }
+
+    .skills-container {
+        gap: 0.5rem;
     }
 
     .skills-box {
