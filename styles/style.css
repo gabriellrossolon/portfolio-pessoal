@@ -75,7 +75,7 @@ strong {
 }
 
 .header-navegacao-itens:hover {
-  animation: zoom 2s;
+  animation: zoom 1s;
   animation-fill-mode: forwards;
 }
 
@@ -93,7 +93,7 @@ strong {
 }
 
 .header-titulo:hover {
-  animation: zoom 2s;
+  animation: zoom 1s;
   animation-fill-mode: forwards;
 }
 
@@ -112,7 +112,7 @@ strong {
 }
 
 .mode-icon:hover {
-  animation: zoom 2s;
+  animation: zoom 1s;
   animation-fill-mode: forwards;
 }
 
@@ -189,9 +189,9 @@ strong {
 
 .hero-card-perfil:hover {
   background-color: var(--background);
-  animation: zoom 2s;
+  animation: zoom 1s;
   animation-fill-mode: forwards;
-  transition: 2s;
+  transition: 1s;
 }
 
 .hero-about {
@@ -221,7 +221,7 @@ strong {
   color: var(--destaques);
   animation: zoom 2s;
   animation-fill-mode: forwards;
-  transition: 2s;
+  transition: 1s;
 }
 
 .hero-linguagens {
@@ -384,7 +384,7 @@ strong {
 
 .project-button:hover {
   background-color: var(--backgroundcontainers);
-  transition: 2s;
+  transition: 1s;
 }
 
 .projects-repositorios {
